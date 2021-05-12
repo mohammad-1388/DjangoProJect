@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class TicketingConfig(AppConfig):
+class SiteSettingsConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'ticketing'
+    name = 'site_settings'
